@@ -2,15 +2,42 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title> Assin]gnment 3 Encyclopedia </title>
+    <title> Assingnment 4 Challenges </title>
+
+    <style>
+      .webSearchLinks{
+        background-color:#202124;
+        font-family:Arial, sans-serif;
+        color:#7fa3e1;
+        font-size:20px;
+      
+      }
+      .webSearchSmall{
+        background-color:#202124;
+        color:#96999d;
+        font-family:Arial, sans-serif;
+        font-size:12px;
+      }
+    </style>
+
   </head>
   <body>
     <h1>Assignment 4</h1>
+    <hr>
     <div> <!--TOC-->
       <h2>Table of Contents</h2>
+      <a href = "#C2">Challenge 2: Build a Chessboard</a>
+        <br>
+      <a href = "#C3">Challenge 3: Create a Form</a>
+        <br>
+      <a href = "#C4">Challenge 4: A Google Search Page</a>
+        <br>
+      <a href = "#C5">Challenge 5: Accessibility Concerns</a>
+        <br>
     </div>
+    <hr>
     <div> <!--Challenge 2-->
-      <h2>Challenge 2: Build a Chessboard</h2>
+      <h2 id="C2">Challenge 2: Build a Chessboard</h2>
       <style type="text/css">
         .tg  {
           border-collapse:collapse;
@@ -148,19 +175,42 @@
         </tbody>
       </table>
     </div>
+    <hr>
     <div> <!--Challenge 3-->
-      <h2>Challenge 3: Create a Form</h2>
+      <h2 id="C3">Challenge 3: Create a Form</h2>
       <form>
         <label for="name">Full Name:</label>
         <input type="text" id="name" name="name"><br>
-        <submit type="submit" value="Submit Name">
+        <br>
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age"><br>
+        <br>
+        <label for="favRamen">Favorite Ramen Flavor:</label>
+        <input type="text" id="favRamen" name="favRamen"><br>
+        <br>
+        <label for="favTopping">Favorite Ramen Topping:</label>
+        <input type="text" id="favTopping" name="favTopping"><br>
+        <br>
+         <input type="submit" value="Submit Form!">
       </form>
     </div>
-    <div> <!--Challenge 4-->
-      <h2>Challenge 4: A Google Search Page</h2>
+    <hr>
+    <div style="background-color:#202124"> <!--Challenge 4-->
+      <h2 id="C4" style="color:white">Challenge 4: A Google Search Page</h2>
+        <p class="webSearchSmall">About 1,390,000,000 results (0.59 seconds)
+        <br>
+        <br>
+        <p class="webSearchSmall">https://www.colorado.edu/atlas/</p>
+        <a class="webSearchLinks" href="https://www.colorado.edu/atlas/">
+ATLAS Institute | University of Colorado Boulder</a>
+        <p class="webSearchLinks"></p>
+        <p class="webSearchSmall"></p>
+        <p class="webSearchSmall"></p>
+        <p class="webSearchSmall"></p>
     </div>
+    <hr>
     <div> <!--Challenge 5-->
-      <h2>Challenge 5: Accessibility Concerns</h2>
+      <h2 id="C5">Challenge 5: Accessibility Concerns</h2>
     </div>
   </body>
 </html>
