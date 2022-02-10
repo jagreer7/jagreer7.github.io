@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title> Assingnment 5 Challenges </title>
+    <title> Assingnment 4 Challenges </title>
 
     <style>
       .webSearchLinks{
@@ -28,70 +28,76 @@
         text-align:left;
         vertical-align: text-top;
       }
-      .tg  {
-        border-collapse:collapse;
-        border-spacing:0;
-      }
-      .tg td{
-        border-color:black;
-        border-style:solid;
-        border-width:1px;
-        font-family:Arial, sans-serif;
-        font-size:30px;
-        overflow:hidden;
-        word-break:normal;
-        table-layout:fixed;
-        width:40px;
-        height:40px;
-      }
-      .tg th{
-        border-color:black;
-        border-style:solid;
-        border-width:1px;
-        font-family:Arial, sans-serif;
-        font-size:30px;
-        font-weight:normal;
-        overflow:hidden;
-        word-break:normal;
-        table-layout:fixed;
-        width:40px;
-        height:40px;
-      }
-      .tg .tg-ybf4{
-        background-color:#8a8584;
-        border-color:inherit;
-        color:black;
-        text-align:center;
-        vertical-align:middle;
-        table-layout:inherit;
-        width:40px;
-        height:40px;
-      }
-      .tg .tg-0pky{
-        border-color:inherit;
-        text-align:center;
-        color:black;
-        vertical-align:middle;
-        table-layout:inherit;
-        width:40px;
-        height:40px;
-      }
     </style>
 
   </head>
   <body>
-    <h1>Assignment 5</h1>
+    <h1>Assignment 4</h1>
     <hr>
     <div> <!--TOC-->
       <h2>Table of Contents</h2>
       <a href = "#C2">Challenge 2: Build a Chessboard</a>
         <br>
+      <a href = "#C3">Challenge 3: Create a Form</a>
+        <br>
       <a href = "#C4">Challenge 4: A Google Search Page</a>
+        <br>
+      <a href = "#C5">Challenge 5: Accessibility Concerns</a>
         <br>
     </div>
     <hr>
     <div> <!--Challenge 2-->
       <h2 id="C2">Challenge 2: Build a Chessboard</h2>
+      <style type="text/css">
+        .tg  {
+          border-collapse:collapse;
+          border-spacing:0;
+        }
+        .tg td{
+          border-color:black;
+          border-style:solid;
+          border-width:1px;
+          font-family:Arial, sans-serif;
+          font-size:30px;
+          overflow:hidden;
+          word-break:normal;
+          table-layout:fixed;
+          width:40px;
+          height:40px;
+        }
+        .tg th{
+          border-color:black;
+          border-style:solid;
+          border-width:1px;
+          font-family:Arial, sans-serif;
+          font-size:30px;
+          font-weight:normal;
+          overflow:hidden;
+          word-break:normal;
+          table-layout:fixed;
+          width:40px;
+          height:40px;
+        }
+        .tg .tg-ybf4{
+          background-color:#8a8584;
+          border-color:inherit;
+          color:black;
+          text-align:center;
+          vertical-align:middle;
+          table-layout:inherit;
+          width:40px;
+          height:40px;
+        }
+        .tg .tg-0pky{
+          border-color:inherit;
+          text-align:center;
+          color:black;
+          vertical-align:middle;
+          table-layout:inherit;
+          width:40px;
+          height:40px;
+        }
+      </style>
       <table class="tg">
         <thead>
           <tr>
@@ -180,6 +186,25 @@
       </table>
     </div>
     <hr>
+    <div> <!--Challenge 3-->
+      <h2 id="C3">Challenge 3: Create a Form</h2>
+      <form>
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name"><br>
+        <br>
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age"><br>
+        <br>
+        <label for="favRamen">Favorite Ramen Flavor:</label>
+        <input type="text" id="favRamen" name="favRamen"><br>
+        <br>
+        <label for="favTopping">Favorite Ramen Topping:</label>
+        <input type="text" id="favTopping" name="favTopping"><br>
+        <br>
+         <input type="submit" value="Submit Form!">
+      </form>
+    </div>
+    <hr>
     <div style="background-color:#202124"> <!--Challenge 4-->
       <h2 id="C4" style="color:white">Challenge 4: A Google Search Page</h2>
         <p class="webSearchSmall">About 1,390,000,000 results (0.59 seconds)
@@ -246,6 +271,13 @@
         <p class="webSearchSmall">https://www.internationalaffairshouse.org/</p>
         <a class="webSearchLinks" href="https://www.internationalaffairshouse.org/">Atlas Institute for International Affairs: Home</a>
         <p class="webSearchSmall">Atlas Institute for International Affairs - The Harmony of Opposite Tensions.</p>
+    </div>
+    <hr>
+    <div> <!--Challenge 5-->
+      <h2 id="C5">Challenge 5: Accessibility Concerns</h2>
+      <p>
+        The previous challenges present many accessibility issues and many opportunities to improve. First, since challenge 2 is in a table format, a visually impaired user, and their devices, would struggle to determine what is on the screen. A solution would be to use photos and more advanced code so that alt text could be utilized. Challenge 3 and 4 are fairly accessible because they are very text-based. A text reader could navigate these formats with relative ease. Challenges which require user input may be difficult for those who cannot perform these tasks. A solution would be the implementation of voice controls to give the interfaces more usability.
+      </p>
     </div>
   </body>
 </html>
