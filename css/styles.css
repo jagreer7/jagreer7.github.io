@@ -149,3 +149,7 @@ img {
   grid-column: 1;
   grid-row: 4;
 }
+
+.h1Indent{
+  margin-left: 1em;
+}
