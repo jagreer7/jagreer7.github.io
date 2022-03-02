@@ -177,9 +177,15 @@ hr {
   padding-right: 40%;
 }
 
+@media screen and (max-width: 800px){
+    .flex{
+      flex-direction: column;
+    }
+}
+
 
 .child {
-  width: 100px;
+  width: auto;
   height: 2em;
   margin-left: 10%;
   margin-right: 10%;
