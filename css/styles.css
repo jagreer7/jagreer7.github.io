@@ -19,6 +19,7 @@ p {
   text-align: left;
   font-family: 'Inter', sans-serif;
   padding: 5px;
+
 }
 
 h1 {
@@ -192,4 +193,35 @@ hr {
   flex: 0 0 auto;
   text-align: center;
   justify-content: center;
+}
+
+.mediaPost{
+  padding: 20px;
+  display: grid;
+  /*grid-template-columns: 50%;
+  grid-template-rows: 60%;*/
+  grid-template-columns: 50%;
+
+}
+
+.postTitleAndDesc{
+  grid-column: 1;
+  grid-row: 1;
+  word-break: break-word;
+  width:100%;
+}
+
+.postImage{
+  grid-column: 2;
+  grid-row: 1;
+  padding-left: 12.5%;
+  padding-right: 12.5%;
+  max-width: 75%;
+}
+
+@media screen and (max-width: 800px){
+    .postImage{
+      grid-column: 1;
+      grid-row: 2;
+    }
 }
