@@ -32,6 +32,12 @@ h1 {
   width: 120%;
 }
 
+@media screen and (max-width: 400px){
+    h1{
+      font-size: 8vw;
+    }
+}
+
 h2 {
   line-height: 0px;
   font-size: 32pt;
@@ -116,6 +122,12 @@ hr {
   padding-left: 3px;
 }
 
+@media screen and (max-width: 400px){
+    .bigTitle{
+      font-size: 16vw;
+    }
+}
+
 .wrapper {
   padding: 20px;
   display: grid;
@@ -178,7 +190,7 @@ hr {
   padding-right: 40%;
 }
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 1000px){
     .flex{
       flex-direction: column;
     }
