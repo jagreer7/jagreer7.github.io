@@ -191,7 +191,6 @@ hr {
   flex-direction: row;
   background-color: white;
   width: auto;
-
 }
 
 @media only screen and (max-width: 500px){
@@ -255,4 +254,31 @@ hr {
       grid-column: 1;
       grid-row: 2;
     }
+}
+
+.button {
+  font-family: 'Inter', sans-serif;
+  text-decoration: none;
+  background-color: white;
+  color: rgba(12, 12, 88, 1);
+  padding: 1em;
+  margin-bottom: 1em;
+}
+
+.contactFlex{
+  margin-bottom: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  flex-direction: column;
+  width: auto;
+}
+
+.contactChild {
+  width: auto;
+  height: 2em;
+  margin-bottom: 1%;
+  flex: 0 0 auto;
+  text-align: center;
+  justify-content: left;
 }
