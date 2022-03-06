@@ -70,18 +70,18 @@ h6 {
 
 a:link {
   color: rgba(12, 12, 88, 1);
-  font-size: 12pt;
+  font-size: 1em;
   margin-left: 20px;
 }
 
 a:hover {
     color: rgba(167, 167, 251, 1);
-    font-size: 12pt;
+    font-size: 1em;
 }
 
 a:visited {
   color: rgba(12, 12, 88, 1);
-  font-size: 12pt;
+  font-size: 1em;
 }
 
 hr {
@@ -281,4 +281,9 @@ hr {
   flex: 0 0 auto;
   text-align: center;
   justify-content: left;
+}
+
+.postMargins{
+  margin-right: 25%;
+  margin-left: 25%;
 }
