@@ -287,3 +287,10 @@ hr {
   margin-right: 25%;
   margin-left: 25%;
 }
+
+.centerForPosts {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
