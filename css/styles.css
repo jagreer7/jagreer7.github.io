@@ -129,9 +129,8 @@ hr {
 }
 
 .wrapper {
-  margin-right: 15%;
-  margin-left: 15%;
-  padding: 10%;
+  margin-right: 25%;
+  margin-left: 25%;
   display: grid;
   grid-row-gap: 10px;
 }
@@ -216,8 +215,8 @@ hr {
 }
 
 .mediaPost{
-  margin-right: 15%;
-  margin-left: 15%;
+  margin-right: 25%;
+  margin-left: 25%;
   padding: 20px;
   display: grid;
   /*grid-template-columns: 50%;
@@ -286,6 +285,14 @@ hr {
 .postMargins{
   margin-right: 25%;
   margin-left: 25%;
+}
+
+@media screen and (max-width: 500px){
+    .postMargins
+    {
+      margin-right: 2%;
+      margin-left: 2%;
+    }
 }
 
 .centerForPosts {
