@@ -217,14 +217,13 @@ hr {
 .mediaPost{
   margin-right: 25%;
   margin-left: 25%;
-  padding: 20px;
   display: grid;
   /*grid-template-columns: 50%;
   grid-template-rows: 60%;*/
   grid-template-columns: 50%;
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 800px){
     .mediaPost
     {
       margin-right: 2%;
@@ -247,7 +246,7 @@ hr {
   max-width: 75%;
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 800px){
     .postImage
     {
       grid-column: 1;
@@ -287,7 +286,7 @@ hr {
   margin-left: 25%;
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 800px){
     .postMargins
     {
       margin-right: 2%;
