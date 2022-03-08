@@ -99,6 +99,7 @@ a:link {
   color: rgba(12, 12, 88, 1);
   font-size: 1em;
   margin-left: 20px;
+   text-decoration: none;
 }
 
 a:hover {
@@ -384,4 +385,11 @@ hr {
     grid-column: 1;
     grid-row: 5;
   }
+}
+
+.sticky {
+  position: sticky;
+  top: 0px;
+  width: 100%;
+
 }
