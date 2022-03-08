@@ -38,15 +38,18 @@ h1 {
 @keyframes slidein {
   from {
     margin-left: 100%;
+    width: 300%;
   }
 
   to {
     margin-left: 10%;
+    width: 90%;
   }
 }
 
 .slide-in {
-  animation-duration: 3s;
+  animation-delay: 0.1s;
+  animation-duration: 5s;
   animation-name: slidein;
 }
 
@@ -236,6 +239,9 @@ hr {
   flex: 0 0 auto;
   text-align: center;
   justify-content: center;
+  background-color: white;
+  color: rgba(12, 12, 88, 1);
+  transition: all 0.5s ease-out;
 }
 
 .mediaPost{
@@ -285,6 +291,12 @@ hr {
   color: rgba(12, 12, 88, 1);
   padding: 1em;
   margin-bottom: 1em;
+  transition: all 0.5s ease-out;
+}
+
+.button:hover{
+  background-color: rgba(12, 12, 88, 1);
+  color: white;
 }
 
 .contactFlex{
