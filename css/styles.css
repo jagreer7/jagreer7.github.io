@@ -22,6 +22,7 @@ ul {
   text-align: left;
   font-family: 'Inter', sans-serif;
   padding: 5px;
+  line-height: 1.5em;
 }
 
 h1 {
@@ -32,6 +33,21 @@ h1 {
   text-align: left;
   width: 90%;
   margin-left: 10%;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+  }
+
+  to {
+    margin-left: 10%;
+  }
+}
+
+.slide-in {
+  animation-duration: 3s;
+  animation-name: slidein;
 }
 
 @media screen and (max-width: 500px){
