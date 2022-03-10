@@ -280,6 +280,7 @@ hr {
     {
       margin-right: 2%;
       margin-left: 2%;
+      grid-template-columns: 100%;
     }
 }
 
