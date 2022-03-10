@@ -275,7 +275,7 @@ hr {
   grid-template-columns: 50%;
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 500px){
     .mediaPost
     {
       margin-right: 2%;
@@ -336,6 +336,21 @@ hr {
     {
       margin-right: 2%;
       margin-left: 2%;
+    }
+}
+
+.MarginToNOIMG{
+  margin-right: 25%;
+  margin-left: 25%;
+  width: 50%;
+}
+
+@media screen and (max-width: 800px){
+    .MarginToNOIMG
+    {
+      margin-right: 2%;
+      margin-left: 2%;
+      width: 96%
     }
 }
 
