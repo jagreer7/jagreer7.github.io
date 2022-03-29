@@ -1,1 +1,1 @@
-const para = document.
+const para = document.querySelector('query')
