@@ -33,8 +33,8 @@ Equality -> x === y
 Does not equal -> !(x === y)
 Does not equal -> x !== y
 */
-//CONDITIONALS
 
+//CONDITIONALS
 let iceCream = 'chocolate';
 if (iceCream === 'chocolate'){
   alert('Yay, I love chocolate ice cream!');
@@ -42,3 +42,10 @@ if (iceCream === 'chocolate'){
 else{
   alert('Oh no, Not chocolate!')
 }
+
+
+//EVENT LISTENERS
+document.querySelector('html').addEventListener('click',
+function(){
+  alert('Ouch! Stop poking me');
+});
