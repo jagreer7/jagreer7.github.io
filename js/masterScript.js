@@ -1,6 +1,4 @@
-
 var flipper = 0;
-
 function changeStyle(){
   var element = document.getElementById("statsButton");
   flipper = flipper + 1;
@@ -11,10 +9,7 @@ function changeStyle(){
      element.style.color = "black";
    }
 }
-
 document.getElementById('statsButton').addEventListener('click', changeStyle);
-
-
 
 var flipper2 = 0;
 function changeStyle2(){
@@ -40,4 +35,11 @@ function changeStyle3(){
      element.style.color = "black";
    }
 }
+
+//BUTTON FOR CURSOR
 document.getElementById('statsButton3').addEventListener('click', changeStyle3);
+
+function questionEverything() {
+  document.querySelector('html').style.cursor = "help";
+}
+document.querySelector('button').addEventListener('click', questionEverything);
