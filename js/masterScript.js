@@ -12,10 +12,32 @@ function changeStyle(){
    }
 }
 
-const para = document.getElementById("statsButton");
+document.getElementById('statsButton').addEventListener('click', changeStyle);
 
-function changeOpacity(){ //Funtion named update name
-  para.style.opacity = "0.2"; //Change the text content to player 1 then the name they enter
+
+
+var flipper2 = 0;
+function changeStyle2(){
+  var element = document.getElementById("statsButton2");
+  flipper2 = flipper2 + 1;
+   if (flipper2 % 2 === 0){
+    element.style.color = "white";
+   }
+   else{
+     element.style.color = "black";
+   }
 }
+document.getElementById('statsButton2').addEventListener('click', changeStyle2);
 
-para.addEventListener('click', updateName);
+var flipper3 = 0;
+function changeStyle3(){
+  var element = document.getElementById("statsButton3");
+  flipper3 = flipper3 + 1;
+   if (flipper3 % 2 === 0){
+    element.style.color = "white";
+   }
+   else{
+     element.style.color = "black";
+   }
+}
+document.getElementById('statsButton3').addEventListener('click', changeStyle3);

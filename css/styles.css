@@ -457,6 +457,12 @@ hr {
 #statsButton{
   color: white;
 }
+#statsButton2{
+  color: white;
+}
+#statsButton3{
+  color: white;
+}
 
 .statsFlex{
   margin-bottom: 5%;
