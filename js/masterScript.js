@@ -1,3 +1,4 @@
+//HIDDEN STATS ON THE STATS PAGE
 var flipper = 0;
 function changeStyle(){
   var element = document.getElementById("statsButton");
@@ -35,11 +36,10 @@ function changeStyle3(){
      element.style.color = "black";
    }
 }
-
-//BUTTON FOR CURSOR
 document.getElementById('statsButton3').addEventListener('click', changeStyle3);
 
+//BUTTON FOR CURSOR
 function questionEverything() {
   document.querySelector('html').style.cursor = "help";
 }
-document.querySelector('button').addEventListener('click', questionEverything);
+document.getElementById('questionButton').addEventListener('mouseover', questionEverything);
