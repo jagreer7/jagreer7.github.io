@@ -123,3 +123,8 @@ img{
   max-height: 500px;
   width: 80%;
 }
+
+.postMargins{
+  margin-right: 25%;
+  margin-left: 25%;
+}
