@@ -12,22 +12,24 @@
   </head>
   <body>
     <div class="app">
-  <header class = "underline">Random Dog Photo Generator</header>
-  <section class="quotes">
-    <div class="quote-text" >
-      <img id="js-quote-text">
+      <header class = "underline">Random Dog Photo Generator</header>
+      <section class="quotes">
+        <div class="quote-text" >
+          <img id="js-quote-text">
+        </div>
+      </section>
+      <section class="controls">
+        <button type="button" id="js-new-quote" class="new-quote button">
+          NEW DOG!!
+        </button>
+        <a id="downloadButton" class="down-quote button" href="./HaveMercyLord.jpg" download="DogPhoto.jpg">
+          Download Photo!
+        </a>
+      </section>
+      <section>
+        <p>The extension I chose to add to my dog photo generator is a download button. This requires my js code to write to a link and replace its href file. It takes the same link which is provided to the API and sets the href attribute of the correct link with the image link. The image in its current form travels to the link where the user can download it personally. As far as I can tell, this is a client-specific error and may download directly on some devices or browsers. One way to solve this problem might be to use iFrame or embedded links.</p>
+      </section>
     </div>
-  </section>
-  <section class="controls">
-    <button type="button" id="js-new-quote" class="new-quote button">
-      NEW DOG!!
-    </button>
-    <a id="downloadButton" class="down-quote button" href="./HaveMercyLord.jpg" download="DogPhoto.jpg">
-      Download Photo!
-    </a>
-  </section>
-</div>
-  <p class="postMargins">The extension I chose to add to my dog photo generator is a download button. This requires my js code to write to a link and replace its href file. It takes the same link which is provided to the API and sets the href attribute of the correct link with the image link. The image in its current form travels to the link where the user can download it personally. As far as I can tell, this is a client-specific error and may download directly on some devices or browsers. One way to solve this problem might be to use iFrame or embedded links.</p>
   </body>
 </html>
 

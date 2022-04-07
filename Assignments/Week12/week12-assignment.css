@@ -109,7 +109,7 @@ header {
 @media screen and (max-width: 600px) {
   .app {
     width: 100%;
-  }
+  }s
   .quote-text {
     font-size: 18px;
   }
@@ -117,7 +117,7 @@ header {
 
 div {
     text-align: center;
-  }
+}
 
 img{
   max-height: 500px;
@@ -127,4 +127,8 @@ img{
 .postMargins{
   margin-right: 25%;
   margin-left: 25%;
+}
+
+p{
+  padding: 1em 1em 1em 1em;
 }
