@@ -4,6 +4,7 @@
 const quoteButton = document.querySelector('#js-new-quote');
 const endPoint = 'https://dog.ceo/api/breeds/image/random';
 
+
 async function  getQuote(){
   console.log("Quote button clicked");
   try {
@@ -25,8 +26,8 @@ function displayFact(fact){
   //var img = new Image();
   const factText = document.querySelector('#js-quote-text');
   factText.src = fact;
-
-  document.querySelector('#downloadButton').setAttribute('href', fact)
+  console.log(fact);
+  document.querySelector('#downloadButton').setAttribute('href', fact);
 }
 
 quoteButton.addEventListener('click', getQuote);
