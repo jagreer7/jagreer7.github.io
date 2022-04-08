@@ -87,7 +87,6 @@ h4 {
   color: rgba(12, 12, 88, 1);
   font-family: 'Raleway', sans-serif;
   padding-left: 50px;
-
 }
 
 h6 {
@@ -129,6 +128,26 @@ a:visited {
 }
 
 .button:hover{
+  background-color: rgba(12, 12, 88, 1);
+  color: white;
+}
+
+.mediaPostButton {
+  font-family: 'Inter', sans-serif;
+  font-size: 1em;
+  display: block;
+  color: rgba(12, 12, 88, 1);
+  background-color: white;
+  border-radius: 4px;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  text-align: center;
+  width: auto;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+}
+
+.mediaPostButton:hover{
   background-color: rgba(12, 12, 88, 1);
   color: white;
 }
@@ -268,43 +287,52 @@ hr {
 }
 
 .mediaPost{
-  margin-right: 25%;
-  margin-left: 25%;
   display: grid;
   /*grid-template-columns: 50%;
   grid-template-rows: 60%;*/
-  grid-template-columns: 50%;
+  grid-template-columns: 30% 70%;
 }
 
 @media screen and (max-width: 500px){
     .mediaPost
     {
+      grid-row-gap: 3em;
       margin-right: 2%;
       margin-left: 2%;
       grid-template-columns: 100%;
     }
 }
 
-.postTitleAndDesc{
+.postTitle{
   grid-column: 1;
   grid-row: 1;
+  width:100%;
+}
+
+.postDesc{
+  grid-column: 1;
+  grid-row: 2;
   word-wrap: break-word;
   width:100%;
 }
 
 .postImage{
   grid-column: 2;
-  grid-row: 1;
+  grid-row: 2;
   padding-left: 12.5%;
   padding-right: 12.5%;
   max-width: 75%;
 }
 
 @media screen and (max-width: 800px){
+  .postDesc{
+    grid-column: 1;
+    grid-row: 2;
+  }
     .postImage
     {
       grid-column: 1;
-      grid-row: 2;
+      grid-row: 3;
     }
 }
 
@@ -328,8 +356,8 @@ hr {
 }
 
 .postMargins{
-  margin-right: 25%;
-  margin-left: 25%;
+  margin-right: 20%;
+  margin-left: 20%;
 }
 
 @media screen and (max-width: 800px){
