@@ -152,7 +152,7 @@ a:visited {
 }
 
 .mediaPostButton:hover{
-  background-color: rgba(12, 12, 88, 1);
+  background-color: #800010;
   color: white;
 }
 
