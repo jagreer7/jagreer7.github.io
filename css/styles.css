@@ -527,3 +527,20 @@ hr {
   border-radius: 10px;
   background-color: white;
 }
+
+.story{
+  background: #52000a;
+  color: white;
+  padding: 10px;
+  visibility: hidden;
+  width: auto;
+}
+
+input[type="text"] {
+  padding: 5px;
+  width: 150px;
+}
+
+label {
+  font-weight: bold;
+}

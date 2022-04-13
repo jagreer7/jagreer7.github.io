@@ -20,6 +20,9 @@ function result() {
     name = customName.value;
     console.log(name);
   }
+  else{
+    name = "Bob";
+  }
 
   const xItem = randomValueFromArray(insertX);
   const yItem = randomValueFromArray(insertY);
