@@ -204,7 +204,7 @@ hr {
   padding-left: 3px;
 }
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 500px){
     .bigTitle{
       font-size: 16vw;
     }
@@ -495,7 +495,7 @@ hr {
 }
 
 .whiteBR{
-  background-color: white;
+  background-color: #52000a;
 }
 
 #statsButton{
