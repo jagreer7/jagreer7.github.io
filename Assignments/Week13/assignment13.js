@@ -27,12 +27,12 @@ function result() {
   const xItem = randomValueFromArray(insertX);
   const yItem = randomValueFromArray(insertY);
   const zItem = randomValueFromArray(insertZ);
-  newStory = "It was 94 fahrenheit outside, so "+xItem+" went for a walk. When they got to "+yItem+", they stared in horror for a few moments, then  "+zItem+". "+name+" saw the whole thing, but was not surprised — "+xItem+" weighs 300 pounds, and it was a hot day.";
+  newStory = "It was 94 fahrenheit outside, so "+xItem+" went for a walk. When they got to "+yItem+", they stared in horror for a few moments, then  "+zItem+". "+nameVariable+" saw the whole thing, but was not surprised — "+xItem+" weighs 300 pounds, and it was a hot day.";
 
   if(document.getElementById("uk").checked) {
     const weight = Math.round(300/14) + " stone";
     const temperature =  Math.round((94 - 32) * (5/9)) + " centigrade";
-    newStory = "It was "+temperature+" outside, so "+xItem+" went for a walk. When they got to "+yItem+", they stared in horror for a few moments, then  "+zItem+". "+name+" saw the whole thing, but was not surprised — "+xItem+" weighs "+weight+", and it was a hot day.";
+    newStory = "It was "+temperature+" outside, so "+xItem+" went for a walk. When they got to "+yItem+", they stared in horror for a few moments, then  "+zItem+". "+nameVariable+" saw the whole thing, but was not surprised — "+xItem+" weighs "+weight+", and it was a hot day.";
   }
 
   story.textContent = newStory;
