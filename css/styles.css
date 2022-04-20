@@ -273,7 +273,6 @@ hr {
 }
 
 .flex{
-  margin-top: -3%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -289,6 +288,18 @@ hr {
       visibility: hidden;
       height: 0;
     }
+}
+
+.accessabilityFlex{
+  margin-top: -3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  background-color: #52000a;
+  color: white;
+  width: 100%;
+  padding: 5px;
 }
 
 .dropbtn {
@@ -387,6 +398,21 @@ hr {
   background-color: #52000a;
   color: white;
   transition: all 0.5s ease-out;
+}
+
+.accessChild {
+  width: auto;
+  display: block;
+  background-color: #52000a;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  flex: 0 0 auto;
+  font-size: 1em;
+  border-radius: 4px;
+  border: none;
+  padding-left: 3em;
+  padding-right: 3em;
 }
 
 .mediaPost{
