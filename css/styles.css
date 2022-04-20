@@ -302,6 +302,13 @@ hr {
   padding: 5px;
 }
 
+@media only screen and (max-width: 500px){
+    .accessabilityFlex
+    {
+      flex-direction: column;
+    }
+}
+
 .dropbtn {
   background-color: #4CAF50;
   color: white;
