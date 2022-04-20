@@ -16,6 +16,21 @@ function MonoChrome(){
     document.querySelector('.mediaPostButton').style.backgroundColor = "#1e1e1e";
     document.querySelector("img").src="img/Rock_JG-MONO.JPG";
   }
+  if(document.title === "Contact Me"){
+    const contactButtons = document.querySelectorAll('.contactChild');
+    contactButtons.forEach(thing => {thing.style.backgroundColor = "#1e1e1e";});
+    document.querySelector("img").src="img/Stairs_JG-MONO.JPG";
+  }
+  if(document.title === "Design Foundations Jackson Greer"){
+    const contactButtons = document.querySelectorAll('.contactChild');
+    contactButtons.forEach(thing => {thing.style.backgroundColor = "#1e1e1e";});
+    document.querySelector("img").src="img/ColorZines-modified.png";
+  }
+  if(document.title === "Image Jackson Greer"){
+    const contactButtons = document.querySelectorAll('.contactChild');
+    contactButtons.forEach(thing => {thing.style.backgroundColor = "#1e1e1e";});
+    document.querySelector("img").src="img/Adarkplace-Good-modified.JPG";
+  }
   const flexes = document.querySelectorAll('.flex');
   flexes.forEach(thing => {thing.style.backgroundColor = "#1e1e1e";});
   const children = document.querySelectorAll('.child');

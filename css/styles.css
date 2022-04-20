@@ -408,6 +408,7 @@ hr {
 }
 
 .accessChild {
+  font-family: 'Inter', sans-serif;
   width: auto;
   display: block;
   background-color: #52000a;
@@ -479,7 +480,7 @@ hr {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  width: 100%;
+  width: auto;
 }
 
 .contactChild {
