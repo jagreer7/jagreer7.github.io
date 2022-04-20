@@ -9,6 +9,13 @@ function MonoChrome(){
   document.querySelector('h2').style.color = "#1e1e1e";
   document.querySelector('.accessabilityFlex').style.backgroundColor = "#1e1e1e";
   document.querySelector('.underlineTitle').style.textShadow = "2px 2px #1e1e1e, 2px -2px #1e1e1e, -2px 2px #1e1e1e, -2px -2px #1e1e1e";
+  const flexes = document.querySelectorAll('.flex');
+  flexes.forEach(thing => {thing.style.backgroundColor = "#1e1e1e";});
+  const children = document.querySelectorAll('.child');
+  children.forEach(thing => {thing.style.backgroundColor = "#1e1e1e";});
+  const accessChild = document.querySelectorAll('.accessChild');
+  accessChild.forEach(thing => {thing.style.backgroundColor = "#1e1e1e";});
+
   if(document.title === "Homepage Jackson Greer"){
     document.querySelector("img").src="img/StairsBlue1_JG-MONO.JPG";
   }
@@ -31,13 +38,18 @@ function MonoChrome(){
     contactButtons.forEach(thing => {thing.style.backgroundColor = "#1e1e1e";});
     document.querySelector("img").src="img/Adarkplace-Good-modified.JPG";
   }
-  const flexes = document.querySelectorAll('.flex');
-  flexes.forEach(thing => {thing.style.backgroundColor = "#1e1e1e";});
-  const children = document.querySelectorAll('.child');
-  children.forEach(thing => {thing.style.backgroundColor = "#1e1e1e";});
-  const accessChild = document.querySelectorAll('.accessChild');
-  accessChild.forEach(thing => {thing.style.backgroundColor = "#1e1e1e";});
-
+  if(document.title === "Web Jackson Greer"){
+    const contactButtons = document.querySelectorAll('.contactChild');
+    contactButtons.forEach(thing => {thing.style.backgroundColor = "#1e1e1e";});
+    document.querySelector("img").src="img/Chess-modified.png";
+  }
+  if(document.title === "Works Jackson Greer"){
+    const postButtons = document.querySelectorAll('.mediaPostButton');
+    postButtons.forEach(thing => {thing.style.backgroundColor = "#1e1e1e";});
+    document.querySelector(".chess").src="img/Chess-modified.png";
+    document.querySelector(".plant").src="img/PlantVR-modified.jpg";
+    document.querySelector(".space").src="img/SpaceJam-modified.png";
+  }
 }
 
 document.querySelector('.MonoChrome').addEventListener('click', MonoChrome);
