@@ -117,7 +117,7 @@ function populateHeader(x){
 populateHeader(Company);
 
 
-function populateHeroes(obj) {
+function populateEmployees(obj) {
   const section = document.querySelector('section');
   const employees = obj['employees'];
 
@@ -151,4 +151,4 @@ function populateHeroes(obj) {
   }
 }
 
-populateHeroes(Company);
+populateEmployees(Company);
