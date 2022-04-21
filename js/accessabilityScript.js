@@ -278,11 +278,11 @@ function Classic(){
 document.querySelector('.Classic').addEventListener('click', Classic);
 
 window.addEventListener(('load'), () => { //Listen for the page to load
-  if(document.querySelector('.slideInOnce') !== null) { //
-    window.sessionStorage.setItem('Heading', 'displayed');
+  if(document.querySelector('.slideInOnce') !== null) { //If the tag with the class slideInOnce exists...
+    window.sessionStorage.setItem('Heading', 'displayed'); //Put the term "displayed" for heading in system storage
   }
 })
 
 if (window.sessionStorage.getItem('Heading')) {
- document.querySelector('.slideInOnce').classList.remove('slide-in')
+ document.querySelector('.slideInOnce').classList.remove('slide-in') //Remove the slide-in class if the "heading" is in system storage
 }
