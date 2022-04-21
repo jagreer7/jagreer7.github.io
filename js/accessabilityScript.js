@@ -276,3 +276,13 @@ function Classic(){
 }
 
 document.querySelector('.Classic').addEventListener('click', Classic);
+
+window.addEventListener(('load'), () => { //Listen for the page to load
+  if(document.querySelector('.slideInOnce') !== null) { //
+    window.sessionStorage.setItem('Heading', 'displayed');
+  }
+})
+
+if (window.sessionStorage.getItem('Heading')) {
+ document.querySelector('.slideInOnce').classList.remove('slide-in')
+}
