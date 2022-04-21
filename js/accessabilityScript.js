@@ -216,7 +216,7 @@ function Classic(){
   document.querySelector('.bigTitle').style.backgroundColor = "#52000a";
   document.querySelector('h1').style.backgroundColor = "#52000a";
   document.querySelector('h1').style.color = "white";
-  document.querySelector('h2').style.color = "#52000a";
+  document.querySelector('h2').style.color = "black";
   document.querySelector('.dropbtn').style.backgroundColor = "#52000a";
   document.querySelector('.accessabilityFlex').style.backgroundColor = "#52000a";
   document.querySelector('.accessabilityFlex').style.borderTop = "thick solid #52000a";
