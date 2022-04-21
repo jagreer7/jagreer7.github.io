@@ -278,7 +278,6 @@ hr {
   align-items: center;
   flex-direction: row;
   background-color: #52000a;
-  color: white;
   width: 100%;
 }
 
@@ -310,7 +309,7 @@ hr {
 }
 
 .dropbtn {
-  background-color: #4CAF50;
+  background-color: #52000a;
   color: white;
   padding: 16px;
   font-size: 16px;
@@ -355,7 +354,6 @@ hr {
     .dropbtn {
       display: block;
       width: 100%;
-      background-color: #52000a;
       color: white;
       font-size: 16px;
       text-align: center;
