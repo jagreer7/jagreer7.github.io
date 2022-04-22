@@ -21,7 +21,7 @@ function MonoChrome(){
   const children = document.querySelectorAll('.child');
   children.forEach(thing => {thing.style.backgroundColor = "#1e1e1e"; thing.style.color = 'white';});
   const accessChild = document.querySelectorAll('.accessChild');
-  accessChild.forEach(thing => {thing.style.backgroundColor = "#1e1e1e"; thing.style.color = 'white'});
+  accessChild.forEach(thing => {thing.style.backgroundColor = "#1e1e1e"; thing.style.color = 'white';});
   const aTags = document.querySelectorAll('a');
   aTags.forEach(thing => {thing.style.color = 'white';});
   const pTags = document.querySelectorAll('p');
@@ -86,7 +86,7 @@ function HighContrastD(){
   const underlines = document.querySelectorAll('.underline');
   underlines.forEach(thing => {thing.style.textShadow = "2px 2px #000000, 2px -2px #000000, -2px 2px #000000, -2px -2px #000000";});
   const flexes = document.querySelectorAll('.flex');
-  flexes.forEach(thing => {thing.style.backgroundColor = "#000000"; thing.style.borderBottom = "thick solid #f2ff00"});
+  flexes.forEach(thing => {thing.style.backgroundColor = "#000000"; thing.style.borderBottom = "thick solid #f2ff00";});
   const children = document.querySelectorAll('.child');
   children.forEach(thing => {thing.style.backgroundColor = "#000000"; thing.style.color = 'white';});
   const accessChild = document.querySelectorAll('.accessChild');
@@ -160,7 +160,7 @@ function HighContrastL(){
     const children = document.querySelectorAll('.child');
     children.forEach(thing => {thing.style.backgroundColor = "#ffffff"; thing.style.color = 'black';});
     const accessChild = document.querySelectorAll('.accessChild');
-    accessChild.forEach(thing => {thing.style.backgroundColor = "#ffffff"; thing.style.color = 'black'});
+    accessChild.forEach(thing => {thing.style.backgroundColor = "#ffffff"; thing.style.color = 'black';});
     const aTags = document.querySelectorAll('a');
     aTags.forEach(thing => {thing.style.color = 'black';});
     const pTags = document.querySelectorAll('p');
@@ -226,7 +226,7 @@ function Classic(){
   const underlines = document.querySelectorAll('.underline');
   underlines.forEach(thing => {thing.style.textShadow = "2px 2px #fffef2, 2px -2px #fffef2, -2px 2px #fffef2, -2px -2px #fffef2";});
   const flexes = document.querySelectorAll('.flex');
-  flexes.forEach(thing => {thing.style.backgroundColor = "#52000a"; thing.style.borderBottom = "thick solid #52000a"});
+  flexes.forEach(thing => {thing.style.backgroundColor = "#52000a"; thing.style.borderBottom = "thick solid #52000a";});
   const children = document.querySelectorAll('.child');
   children.forEach(thing => {thing.style.backgroundColor = "#52000a"; thing.style.color = 'black';});
   const accessChild = document.querySelectorAll('.accessChild');
