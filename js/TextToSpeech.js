@@ -81,3 +81,5 @@ onload = function() {
       console.log('Speech Synthesis Not Supported');
   }
 }
+
+//REFRENCE https://www.hongkiat.com/blog/text-to-speech/ FOR TEXT TO SPEECH IMPLEMENTTION
