@@ -314,6 +314,10 @@ hr {
       flex-direction: column;
       row-gap: 1em;
     }
+    .flexBreak{
+      flex-basis: 0%;
+      height: 0;
+    }
 }
 
 .dropbtn {
