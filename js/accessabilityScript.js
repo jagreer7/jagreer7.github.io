@@ -21,7 +21,7 @@ function MonoChrome(){
   const children = document.querySelectorAll('.child');
   children.forEach(thing => {thing.style.backgroundColor = "#1e1e1e"; thing.style.color = 'white';});
   const accessChild = document.querySelectorAll('.accessChild');
-  accessChild.forEach(thing => {thing.style.backgroundColor = "#1e1e1e"; thing.style.color = 'white';});
+  accessChild.forEach(thing => {thing.style.backgroundColor = "white"; thing.style.color = 'black';});
   const aTags = document.querySelectorAll('a');
   aTags.forEach(thing => {thing.style.color = 'white';});
   const pTags = document.querySelectorAll('p');
@@ -90,7 +90,7 @@ function HighContrastD(){
   const children = document.querySelectorAll('.child');
   children.forEach(thing => {thing.style.backgroundColor = "#000000"; thing.style.color = 'white';});
   const accessChild = document.querySelectorAll('.accessChild');
-  accessChild.forEach(thing => {thing.style.backgroundColor = "#000000"; thing.style.color = 'white';});
+  accessChild.forEach(thing => {thing.style.backgroundColor = "#f2ff00"; thing.style.color = 'black';});
   const aTags = document.querySelectorAll('a');
   aTags.forEach(thing => {thing.style.color = 'white';});
   const pTags = document.querySelectorAll('p');
@@ -160,7 +160,7 @@ function HighContrastL(){
     const children = document.querySelectorAll('.child');
     children.forEach(thing => {thing.style.backgroundColor = "#ffffff"; thing.style.color = 'black';});
     const accessChild = document.querySelectorAll('.accessChild');
-    accessChild.forEach(thing => {thing.style.backgroundColor = "#ffffff"; thing.style.color = 'black';});
+    accessChild.forEach(thing => {thing.style.backgroundColor = "#44005e"; thing.style.color = 'white';});
     const aTags = document.querySelectorAll('a');
     aTags.forEach(thing => {thing.style.color = 'black';});
     const pTags = document.querySelectorAll('p');
@@ -230,7 +230,7 @@ function Classic(){
   const children = document.querySelectorAll('.child');
   children.forEach(thing => {thing.style.backgroundColor = "#52000a"; thing.style.color = 'black';});
   const accessChild = document.querySelectorAll('.accessChild');
-  accessChild.forEach(thing => {thing.style.backgroundColor = "#52000a"; thing.style.color = 'white';});
+  accessChild.forEach(thing => {thing.style.backgroundColor = "#400008"; thing.style.color = 'white';});
   const aTags = document.querySelectorAll('a');
   aTags.forEach(thing => {thing.style.color = 'white';});
   const pTags = document.querySelectorAll('p');
