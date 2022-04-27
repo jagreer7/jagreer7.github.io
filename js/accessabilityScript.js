@@ -26,6 +26,8 @@ function MonoChrome(){
   aTags.forEach(thing => {thing.style.color = 'white';});
   const pTags = document.querySelectorAll('p');
   pTags.forEach(thing => {thing.style.color = "black";});
+  const h4Tags = document.querySelectorAll('h4');
+  h4Tags.forEach(thing => {thing.style.color = "black";});
   const bigTitles = document.querySelectorAll('.bigTitle');
   bigTitles.forEach(thing => {thing.style.color = "white";});
 
@@ -95,6 +97,8 @@ function HighContrastD(){
   aTags.forEach(thing => {thing.style.color = 'white';});
   const pTags = document.querySelectorAll('p');
   pTags.forEach(thing => {thing.style.color = "white";});
+  const h4Tags = document.querySelectorAll('h4');
+  h4Tags.forEach(thing => {thing.style.color = "white";});
   const bigTitles = document.querySelectorAll('.bigTitle');
   bigTitles.forEach(thing => {thing.style.color = "white";});
 
@@ -165,6 +169,8 @@ function HighContrastL(){
     aTags.forEach(thing => {thing.style.color = 'black';});
     const pTags = document.querySelectorAll('p');
     pTags.forEach(thing => {thing.style.color = "black";});
+    const h4Tags = document.querySelectorAll('h4');
+    h4Tags.forEach(thing => {thing.style.color = "black";});
     const bigTitles = document.querySelectorAll('.bigTitle');
     bigTitles.forEach(thing => {thing.style.color = "black";});
 
@@ -235,6 +241,8 @@ function Classic(){
   aTags.forEach(thing => {thing.style.color = 'white';});
   const pTags = document.querySelectorAll('p');
   pTags.forEach(thing => {thing.style.color = "black";});
+  const h4Tags = document.querySelectorAll('h4');
+  h4Tags.forEach(thing => {thing.style.color = "black";});
   const bigTitles = document.querySelectorAll('.bigTitle');
   bigTitles.forEach(thing => {thing.style.color = "white";});
 

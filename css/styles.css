@@ -679,3 +679,22 @@ input[type="text"] {
 label {
   font-weight: bold;
 }
+
+.accesswrapper {
+  display: grid;
+  grid-template-columns: 100%;
+}
+
+.accessbox1{
+  grid-row: 1;
+}
+
+.accessbox2{
+  grid-row: 2;
+  padding-top: 1em;
+}
+
+.accessbox3{
+  grid-row: 3;
+  padding-top: 1em;
+}
