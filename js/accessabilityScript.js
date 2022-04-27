@@ -287,7 +287,7 @@ document.querySelector('.Classic').addEventListener('click', Classic);
 
 // -------- TITLE ONLY SLIDES IN ONCE --------
 window.addEventListener(('load'), () => { //Listen for the page to load
-  if(document.querySelector('.slideInOnce') !== null) { //If the tag with the class slideInOnce exists...
+  if(document.querySelector('.slide-in') !== null) { //If the tag with the class slideInOnce exists...
     window.sessionStorage.setItem('Heading', 'displayed'); //Put the term "displayed" for heading in system storage
   }
 })
