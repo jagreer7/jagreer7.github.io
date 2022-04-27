@@ -1,3 +1,10 @@
+
+if(sessionStorage.getItem('showAlert') != "false"){
+  alert("This Page features text-to-speech capabilities as well as different page color options. Accessibility options are present at the bottom of each page. For more information on how to use these functions, see the accessibility page.");
+  sessionStorage.setItem('showAlert', "false");
+}
+
+
 function getUtterance(title){
   if(document.title === "Homepage Jackson Greer"){
     console.log(document.title)
