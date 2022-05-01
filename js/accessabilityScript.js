@@ -9,8 +9,8 @@ function MonoChrome(){
   document.querySelector('h1').style.color = "white";
   document.querySelector('h2').style.color = "#1e1e1e";
   document.querySelector('.dropbtn').style.backgroundColor = "#1e1e1e";
-  document.querySelector('.accessabilityFlex').style.backgroundColor = "#1e1e1e";
-  document.querySelector('.accessabilityFlex').style.borderTop = "thick solid #1e1e1e";
+  const accessFlex = document.querySelectorAll('.accessabilityFlex');
+  accessFlex.forEach(thing => {thing.style.borderTop  = "thick solid #1e1e1e"; thing.style.backgroundColor = "#1e1e1e";});
   document.querySelector('.underlineTitle').style.textShadow = "2px 2px #1e1e1e, 2px -2px #1e1e1e, -2px 2px #1e1e1e, -2px -2px #1e1e1e";
   const imageBoder = document.querySelectorAll('img');
   imageBoder.forEach(thing => {thing.style.border  = "thin solid black";});
@@ -21,7 +21,7 @@ function MonoChrome(){
   const children = document.querySelectorAll('.child');
   children.forEach(thing => {thing.style.backgroundColor = "#1e1e1e"; thing.style.color = 'white';});
   const accessChild = document.querySelectorAll('.accessChild');
-  accessChild.forEach(thing => {thing.style.backgroundColor = "white"; thing.style.color = 'black';});
+  accessChild.forEach(thing => {thing.style.backgroundColor = "white"; thing.style.color = 'black'; thing.style.border = '1px solid white';});
   const aTags = document.querySelectorAll('a');
   aTags.forEach(thing => {thing.style.color = 'white';});
   const pTags = document.querySelectorAll('p');
@@ -68,7 +68,10 @@ function MonoChrome(){
   }
 }
 
-document.querySelector('.MonoChrome').addEventListener('click', MonoChrome);
+const mcButtons = document.querySelectorAll('.MonoChrome');
+for (let i = 0; i < mcButtons.length; i++){
+  mcButtons[i].addEventListener('click', MonoChrome);
+}
 
 function HighContrastD(){
   console.log("HighContrastD");
@@ -80,8 +83,8 @@ function HighContrastD(){
   document.querySelector('h1').style.color = "white";
   document.querySelector('h2').style.color = "white";
   document.querySelector('.dropbtn').style.backgroundColor = "#000000";
-  document.querySelector('.accessabilityFlex').style.backgroundColor = "#000000";
-  document.querySelector('.accessabilityFlex').style.borderTop = "thick solid #f2ff00";
+  const accessFlex = document.querySelectorAll('.accessabilityFlex');
+  accessFlex.forEach(thing => {thing.style.borderTop  = "thick solid #f2ff00"; thing.style.backgroundColor = "#000000";});
   document.querySelector('.underlineTitle').style.textShadow = "2px 2px #000000, 2px -2px #000000, -2px 2px #000000, -2px -2px #000000";
   const imageBoder = document.querySelectorAll('img');
   imageBoder.forEach(thing => {thing.style.border  = "thick solid #f2ff00";});
@@ -92,7 +95,7 @@ function HighContrastD(){
   const children = document.querySelectorAll('.child');
   children.forEach(thing => {thing.style.backgroundColor = "#000000"; thing.style.color = 'white';});
   const accessChild = document.querySelectorAll('.accessChild');
-  accessChild.forEach(thing => {thing.style.backgroundColor = "#f2ff00"; thing.style.color = 'black';});
+  accessChild.forEach(thing => {thing.style.backgroundColor = "#f2ff00"; thing.style.color = 'black'; thing.style.border = '1px solid #f2ff00';});
   const aTags = document.querySelectorAll('a');
   aTags.forEach(thing => {thing.style.color = 'white';});
   const pTags = document.querySelectorAll('p');
@@ -139,8 +142,10 @@ function HighContrastD(){
     document.querySelector(".space").src="img/SpaceJam.png";
   }
 }
-
-document.querySelector('.HighContrastD').addEventListener('click', HighContrastD);
+const hcdButtons = document.querySelectorAll('.HighContrastD');
+for (let i = 0; i < hcdButtons.length; i++){
+  hcdButtons[i].addEventListener('click', HighContrastD);
+}
 
 function HighContrastL(){
   console.log("HighContrastL");
@@ -152,8 +157,8 @@ function HighContrastL(){
     document.querySelector('h1').style.color = "black";
     document.querySelector('h2').style.color = "black";
     document.querySelector('.dropbtn').style.backgroundColor = "#ffffff";
-    document.querySelector('.accessabilityFlex').style.backgroundColor = "#ffffff";
-    document.querySelector('.accessabilityFlex').style.borderTop = "thick solid #44005e";
+    const accessFlex = document.querySelectorAll('.accessabilityFlex');
+    accessFlex.forEach(thing => {thing.style.borderTop  = "thick solid #44005e"; thing.style.backgroundColor = "#ffffff";});
     document.querySelector('.underlineTitle').style.textShadow = "2px 2px #ffffff, 2px -2px #ffffff, -2px 2px #ffffff, -2px -2px #ffffff";
     const imageBoder = document.querySelectorAll('img');
     imageBoder.forEach(thing => {thing.style.border  = "thick solid #44005e";});
@@ -164,7 +169,7 @@ function HighContrastL(){
     const children = document.querySelectorAll('.child');
     children.forEach(thing => {thing.style.backgroundColor = "#ffffff"; thing.style.color = 'black';});
     const accessChild = document.querySelectorAll('.accessChild');
-    accessChild.forEach(thing => {thing.style.backgroundColor = "#44005e"; thing.style.color = 'white';});
+    accessChild.forEach(thing => {thing.style.backgroundColor = "#44005e"; thing.style.color = 'white'; thing.style.border = '1px solid #44005e';});
     const aTags = document.querySelectorAll('a');
     aTags.forEach(thing => {thing.style.color = 'black';});
     const pTags = document.querySelectorAll('p');
@@ -212,9 +217,13 @@ function HighContrastL(){
     }
 }
 
-document.querySelector('.HighContrastL').addEventListener('click', HighContrastL);
+const hclButtons = document.querySelectorAll('.HighContrastL');
+for (let i = 0; i < hclButtons.length; i++){
+  hclButtons[i].addEventListener('click', HighContrastL);
+}
 
-function Classic(){
+
+function classicFunction(){
   console.log("Classic");
   document.body.style.backgroundColor = "#fffef2";
   document.querySelector('.headerDiv').style.backgroundColor = "#52000a";
@@ -224,8 +233,8 @@ function Classic(){
   document.querySelector('h1').style.color = "white";
   document.querySelector('h2').style.color = "black";
   document.querySelector('.dropbtn').style.backgroundColor = "#52000a";
-  document.querySelector('.accessabilityFlex').style.backgroundColor = "#52000a";
-  document.querySelector('.accessabilityFlex').style.borderTop = "thick solid #52000a";
+  const accessFlex = document.querySelectorAll('.accessabilityFlex');
+  accessFlex.forEach(thing => {thing.style.borderTop  = "thick solid #52000a"; thing.style.backgroundColor = "#52000a";});
   document.querySelector('.underlineTitle').style.textShadow = "2px 2px #52000a, 2px -2px #52000a, -2px 2px #52000a, -2px -2px #52000a";
   const imageBoder = document.querySelectorAll('img');
   imageBoder.forEach(thing => {thing.style.border  = "thin solid black";});
@@ -236,7 +245,7 @@ function Classic(){
   const children = document.querySelectorAll('.child');
   children.forEach(thing => {thing.style.backgroundColor = "#52000a"; thing.style.color = 'black';});
   const accessChild = document.querySelectorAll('.accessChild');
-  accessChild.forEach(thing => {thing.style.backgroundColor = "#400008"; thing.style.color = 'white';});
+  accessChild.forEach(thing => {thing.style.backgroundColor = "#400008"; thing.style.color = 'white'; thing.style.border = '1px solid #400008';});
   const aTags = document.querySelectorAll('a');
   aTags.forEach(thing => {thing.style.color = 'white';});
   const pTags = document.querySelectorAll('p');
@@ -283,16 +292,21 @@ function Classic(){
   }
 }
 
-document.querySelector('.Classic').addEventListener('click', Classic);
+const classicButtons = document.querySelectorAll('.Classic');
+for (let i = 0; i < classicButtons.length; i++){
+  classicButtons[i].addEventListener('click', classicFunction);
+}
+
+
 
 // -------- TITLE ONLY SLIDES IN ONCE --------
 window.addEventListener(('load'), () => { //Listen for the page to load
   if(document.querySelector('.slide-in') !== null) { //If the tag with the class slideInOnce exists...
     window.sessionStorage.setItem('Heading', 'displayed'); //Put the term "displayed" for heading in system storage
   }
-})
+});
 
 if (window.sessionStorage.getItem('Heading')) {
- document.querySelector('.slideInOnce').classList.remove('slide-in') //Remove the slide-in class if the "heading" is in system storage
+ document.querySelector('.slideInOnce').classList.remove('slide-in'); //Remove the slide-in class if the "heading" is in system storage
 }
 // -------------------------------------------
