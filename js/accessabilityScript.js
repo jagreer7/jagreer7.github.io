@@ -226,26 +226,26 @@ for (let i = 0; i < hclButtons.length; i++){
 function classicFunction(){
   console.log("Classic");
   document.body.style.backgroundColor = "#fffef2";
-  document.querySelector('.headerDiv').style.backgroundColor = "#52000a";
-  document.querySelector('.whiteBR').style.backgroundColor = "#52000a";
-  document.querySelector('.bigTitle').style.backgroundColor = "#52000a";
-  document.querySelector('h1').style.backgroundColor = "#52000a";
+  document.querySelector('.headerDiv').style.backgroundColor = "#000000";
+  document.querySelector('.whiteBR').style.backgroundColor = "#000000";
+  document.querySelector('.bigTitle').style.backgroundColor = "#000000";
+  document.querySelector('h1').style.backgroundColor = "#000000";
   document.querySelector('h1').style.color = "white";
   document.querySelector('h2').style.color = "black";
-  document.querySelector('.dropbtn').style.backgroundColor = "#52000a";
+  document.querySelector('.dropbtn').style.backgroundColor = "#000000";
   const accessFlex = document.querySelectorAll('.accessabilityFlex');
-  accessFlex.forEach(thing => {thing.style.borderTop  = "thick solid #52000a"; thing.style.backgroundColor = "#52000a";});
-  document.querySelector('.underlineTitle').style.textShadow = "2px 2px #52000a, 2px -2px #52000a, -2px 2px #52000a, -2px -2px #52000a";
+  accessFlex.forEach(thing => {thing.style.borderTop  = "thick solid #000000"; thing.style.backgroundColor = "#000000";});
+  document.querySelector('.underlineTitle').style.textShadow = "2px 2px #000000, 2px -2px #000000, -2px 2px #000000, -2px -2px #000000";
   const imageBoder = document.querySelectorAll('img');
   imageBoder.forEach(thing => {thing.style.border  = "thin solid black";});
   const underlines = document.querySelectorAll('.underline');
   underlines.forEach(thing => {thing.style.textShadow = "2px 2px #fffef2, 2px -2px #fffef2, -2px 2px #fffef2, -2px -2px #fffef2";});
   const flexes = document.querySelectorAll('.flex');
-  flexes.forEach(thing => {thing.style.backgroundColor = "#52000a"; thing.style.borderBottom = "thick solid #52000a";});
+  flexes.forEach(thing => {thing.style.backgroundColor = "#000000"; thing.style.borderBottom = "thick solid #000000";});
   const children = document.querySelectorAll('.child');
-  children.forEach(thing => {thing.style.backgroundColor = "#52000a"; thing.style.color = 'black';});
+  children.forEach(thing => {thing.style.backgroundColor = "#000000"; thing.style.color = 'black';});
   const accessChild = document.querySelectorAll('.accessChild');
-  accessChild.forEach(thing => {thing.style.backgroundColor = "#400008"; thing.style.color = 'white'; thing.style.border = '1px solid #400008';});
+  accessChild.forEach(thing => {thing.style.backgroundColor = "#2b2b2b"; thing.style.color = 'white'; thing.style.border = '1px solid #2b2b2b';});
   const aTags = document.querySelectorAll('a');
   aTags.forEach(thing => {thing.style.color = 'white';});
   const pTags = document.querySelectorAll('p');
@@ -259,33 +259,33 @@ function classicFunction(){
     document.querySelector("img").src="img/StairsBlue1_JG.JPG";
   }
   if(document.title === "About Me Jackson Greer"){
-    document.querySelector('.mediaPostButton').style.backgroundColor = "#52000a";
+    document.querySelector('.mediaPostButton').style.backgroundColor = "#000000";
     document.querySelector('.mediaPostButton').style.color = "white";
     document.querySelector("img").src="img/Rock_JG.JPG";
   }
   if(document.title === "Contact Me"){
     const contactButtons = document.querySelectorAll('.contactChild');
-    contactButtons.forEach(thing => {thing.style.backgroundColor = "#52000a";  thing.style.color = "white";});
+    contactButtons.forEach(thing => {thing.style.backgroundColor = "#000000";  thing.style.color = "white";});
     document.querySelector("img").src="img/Stairs_JG.JPG";
   }
   if(document.title === "Design Foundations Jackson Greer"){
     const contactButtons = document.querySelectorAll('.contactChild');
-    contactButtons.forEach(thing => {thing.style.backgroundColor = "#52000a"; thing.style.color = "white";});
+    contactButtons.forEach(thing => {thing.style.backgroundColor = "#000000"; thing.style.color = "white";});
     document.querySelector("img").src="img/ColorZines.png";
   }
   if(document.title === "Image Jackson Greer"){
     const contactButtons = document.querySelectorAll('.contactChild');
-    contactButtons.forEach(thing => {thing.style.backgroundColor = "#52000a"; thing.style.color = "white";});
+    contactButtons.forEach(thing => {thing.style.backgroundColor = "#000000"; thing.style.color = "white";});
     document.querySelector("img").src="img/Adarkplace-Good.JPG";
   }
   if(document.title === "Web Jackson Greer"){
     const contactButtons = document.querySelectorAll('.contactChild');
-    contactButtons.forEach(thing => {thing.style.backgroundColor = "#52000a"; thing.style.color = "white";});
+    contactButtons.forEach(thing => {thing.style.backgroundColor = "#000000"; thing.style.color = "white";});
     document.querySelector("img").src="img/Chess.png";
   }
   if(document.title === "Works Jackson Greer"){
     const postButtons = document.querySelectorAll('.mediaPostButton');
-    postButtons.forEach(thing => {thing.style.backgroundColor = "#52000a"; thing.style.color = "white";});
+    postButtons.forEach(thing => {thing.style.backgroundColor = "#000000"; thing.style.color = "white";});
     document.querySelector(".chess").src="img/Chess.png";
     document.querySelector(".plant").src="img/PlantVR.jpg";
     document.querySelector(".space").src="img/SpaceJam.png";
