@@ -75,25 +75,25 @@ for (let i = 0; i < mcButtons.length; i++){
 
 function HighContrastD(){
   console.log("HighContrastD");
-  document.body.style.backgroundColor = "#000000";
-  document.querySelector('.headerDiv').style.backgroundColor = "#000000";
-  document.querySelector('.whiteBR').style.backgroundColor = "#000000";
-  document.querySelector('.bigTitle').style.backgroundColor = "#000000";
-  document.querySelector('h1').style.backgroundColor = "#000000";
+  document.body.style.backgroundColor = "#000000 ";
+  document.querySelector('.headerDiv').style.backgroundColor = "#000000 ";
+  document.querySelector('.whiteBR').style.backgroundColor = "#000000 ";
+  document.querySelector('.bigTitle').style.backgroundColor = "#000000 ";
+  document.querySelector('h1').style.backgroundColor = "#000000 ";
   document.querySelector('h1').style.color = "white";
   document.querySelector('h2').style.color = "white";
-  document.querySelector('.dropbtn').style.backgroundColor = "#000000";
+  document.querySelector('.dropbtn').style.backgroundColor = "#000000 ";
   const accessFlex = document.querySelectorAll('.accessabilityFlex');
-  accessFlex.forEach(thing => {thing.style.borderTop  = "thick solid #f2ff00"; thing.style.backgroundColor = "#000000";});
-  document.querySelector('.underlineTitle').style.textShadow = "2px 2px #000000, 2px -2px #000000, -2px 2px #000000, -2px -2px #000000";
+  accessFlex.forEach(thing => {thing.style.borderTop  = "thick solid #f2ff00"; thing.style.backgroundColor = "#000000 ";});
+  document.querySelector('.underlineTitle').style.textShadow = "2px 2px #000000 , 2px -2px #000000 , -2px 2px #000000 , -2px -2px #000000 ";
   const imageBoder = document.querySelectorAll('img');
   imageBoder.forEach(thing => {thing.style.border  = "thick solid #f2ff00";});
   const underlines = document.querySelectorAll('.underline');
-  underlines.forEach(thing => {thing.style.textShadow = "2px 2px #000000, 2px -2px #000000, -2px 2px #000000, -2px -2px #000000";});
+  underlines.forEach(thing => {thing.style.textShadow = "2px 2px #000000 , 2px -2px #000000 , -2px 2px #000000 , -2px -2px #000000 ";});
   const flexes = document.querySelectorAll('.flex');
-  flexes.forEach(thing => {thing.style.backgroundColor = "#000000"; thing.style.borderBottom = "thick solid #f2ff00";});
+  flexes.forEach(thing => {thing.style.backgroundColor = "#000000 "; thing.style.borderBottom = "thick solid #f2ff00";});
   const children = document.querySelectorAll('.child');
-  children.forEach(thing => {thing.style.backgroundColor = "#000000"; thing.style.color = 'white';});
+  children.forEach(thing => {thing.style.backgroundColor = "#000000 "; thing.style.color = 'white';});
   const accessChild = document.querySelectorAll('.accessChild');
   accessChild.forEach(thing => {thing.style.backgroundColor = "#f2ff00"; thing.style.color = 'black'; thing.style.border = '1px solid #f2ff00';});
   const aTags = document.querySelectorAll('a');
@@ -225,27 +225,27 @@ for (let i = 0; i < hclButtons.length; i++){
 
 function classicFunction(){
   console.log("Classic");
-  document.body.style.backgroundColor = "#fffef2";
-  document.querySelector('.headerDiv').style.backgroundColor = "#000000";
-  document.querySelector('.whiteBR').style.backgroundColor = "#000000";
-  document.querySelector('.bigTitle').style.backgroundColor = "#000000";
-  document.querySelector('h1').style.backgroundColor = "#000000";
+  document.body.style.backgroundColor = "#E9F7FA";
+  document.querySelector('.headerDiv').style.backgroundColor = "#225C73 ";
+  document.querySelector('.whiteBR').style.backgroundColor = "#225C73 ";
+  document.querySelector('.bigTitle').style.backgroundColor = "#225C73 ";
+  document.querySelector('h1').style.backgroundColor = "#225C73 ";
   document.querySelector('h1').style.color = "white";
   document.querySelector('h2').style.color = "black";
-  document.querySelector('.dropbtn').style.backgroundColor = "#000000";
+  document.querySelector('.dropbtn').style.backgroundColor = "#225C73 ";
   const accessFlex = document.querySelectorAll('.accessabilityFlex');
-  accessFlex.forEach(thing => {thing.style.borderTop  = "thick solid #000000"; thing.style.backgroundColor = "#000000";});
-  document.querySelector('.underlineTitle').style.textShadow = "2px 2px #000000, 2px -2px #000000, -2px 2px #000000, -2px -2px #000000";
+  accessFlex.forEach(thing => {thing.style.borderTop  = "thick solid #225C73 "; thing.style.backgroundColor = "#225C73 ";});
+  document.querySelector('.underlineTitle').style.textShadow = "2px 2px #225C73 , 2px -2px #225C73 , -2px 2px #225C73 , -2px -2px #225C73 ";
   const imageBoder = document.querySelectorAll('img');
   imageBoder.forEach(thing => {thing.style.border  = "thin solid black";});
   const underlines = document.querySelectorAll('.underline');
-  underlines.forEach(thing => {thing.style.textShadow = "2px 2px #fffef2, 2px -2px #fffef2, -2px 2px #fffef2, -2px -2px #fffef2";});
+  underlines.forEach(thing => {thing.style.textShadow = "2px 2px #E9F7FA, 2px -2px #E9F7FA, -2px 2px #E9F7FA, -2px -2px #E9F7FA";});
   const flexes = document.querySelectorAll('.flex');
-  flexes.forEach(thing => {thing.style.backgroundColor = "#000000"; thing.style.borderBottom = "thick solid #000000";});
+  flexes.forEach(thing => {thing.style.backgroundColor = "#225C73 "; thing.style.borderBottom = "thick solid #225C73 ";});
   const children = document.querySelectorAll('.child');
-  children.forEach(thing => {thing.style.backgroundColor = "#000000"; thing.style.color = 'black';});
+  children.forEach(thing => {thing.style.backgroundColor = "#225C73 "; thing.style.color = 'black';});
   const accessChild = document.querySelectorAll('.accessChild');
-  accessChild.forEach(thing => {thing.style.backgroundColor = "#2b2b2b"; thing.style.color = 'white'; thing.style.border = '1px solid #2b2b2b';});
+  accessChild.forEach(thing => {thing.style.backgroundColor = "#4B8CA6"; thing.style.color = 'white'; thing.style.border = '1px solid #4B8CA6';});
   const aTags = document.querySelectorAll('a');
   aTags.forEach(thing => {thing.style.color = 'white';});
   const pTags = document.querySelectorAll('p');
@@ -259,33 +259,33 @@ function classicFunction(){
     document.querySelector("img").src="img/StairsBlue1_JG.JPG";
   }
   if(document.title === "About Me Jackson Greer"){
-    document.querySelector('.mediaPostButton').style.backgroundColor = "#000000";
+    document.querySelector('.mediaPostButton').style.backgroundColor = "#225C73 ";
     document.querySelector('.mediaPostButton').style.color = "white";
     document.querySelector("img").src="img/Rock_JG.JPG";
   }
   if(document.title === "Contact Me"){
     const contactButtons = document.querySelectorAll('.contactChild');
-    contactButtons.forEach(thing => {thing.style.backgroundColor = "#000000";  thing.style.color = "white";});
+    contactButtons.forEach(thing => {thing.style.backgroundColor = "#225C73 ";  thing.style.color = "white";});
     document.querySelector("img").src="img/Stairs_JG.JPG";
   }
   if(document.title === "Design Foundations Jackson Greer"){
     const contactButtons = document.querySelectorAll('.contactChild');
-    contactButtons.forEach(thing => {thing.style.backgroundColor = "#000000"; thing.style.color = "white";});
+    contactButtons.forEach(thing => {thing.style.backgroundColor = "#225C73 "; thing.style.color = "white";});
     document.querySelector("img").src="img/ColorZines.png";
   }
   if(document.title === "Image Jackson Greer"){
     const contactButtons = document.querySelectorAll('.contactChild');
-    contactButtons.forEach(thing => {thing.style.backgroundColor = "#000000"; thing.style.color = "white";});
+    contactButtons.forEach(thing => {thing.style.backgroundColor = "#225C73 "; thing.style.color = "white";});
     document.querySelector("img").src="img/Adarkplace-Good.JPG";
   }
   if(document.title === "Web Jackson Greer"){
     const contactButtons = document.querySelectorAll('.contactChild');
-    contactButtons.forEach(thing => {thing.style.backgroundColor = "#000000"; thing.style.color = "white";});
+    contactButtons.forEach(thing => {thing.style.backgroundColor = "#225C73 "; thing.style.color = "white";});
     document.querySelector("img").src="img/Chess.png";
   }
   if(document.title === "Works Jackson Greer"){
     const postButtons = document.querySelectorAll('.mediaPostButton');
-    postButtons.forEach(thing => {thing.style.backgroundColor = "#000000"; thing.style.color = "white";});
+    postButtons.forEach(thing => {thing.style.backgroundColor = "#225C73 "; thing.style.color = "white";});
     document.querySelector(".chess").src="img/Chess.png";
     document.querySelector(".plant").src="img/PlantVR.jpg";
     document.querySelector(".space").src="img/SpaceJam.png";
