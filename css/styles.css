@@ -1,10 +1,10 @@
 body {
-  background-color: #fffef2;
+  background-color: #E9F7FA;
 }
 
 .headerDiv {
   width: auto;
-  background-color: #000000;
+  background-color: #225C73;
   margin-top: -2%;
 }
 
@@ -131,7 +131,7 @@ a:visited {
   font-family: 'Inter', sans-serif;
   font-size: 1em;
   text-decoration: none;
-  background-color: #000000;
+  background-color: #225C73;
   height: 2em;
   line-height: 2em;
   text-align: center;
@@ -142,7 +142,7 @@ a:visited {
 }
 
 .button:hover{
-  background-color: #2b2b2b;
+  background-color: #4B8CA6;
 }
 
 .mediaPostButton {
@@ -150,7 +150,7 @@ a:visited {
   font-size: 1em;
   display: block;
   color: rgba(12, 12, 88, 1);
-  background-color: #000000;
+  background-color: #225C73;
   border-radius: 4px;
   border: none;
   padding: 10px 20px;
@@ -161,7 +161,7 @@ a:visited {
 }
 
 .mediaPostButton:hover{
-  background-color: #2b2b2b;
+  background-color: #4B8CA6;
 }
 
 hr {
@@ -180,10 +180,10 @@ hr {
     -2px 2px rgba(255, 255, 255, 1),
     -2px -2px rgba(255, 255, 255, 1); */
 
-    2px 2px #000000,
-    2px -2px #000000,
-    -2px 2px #000000,
-    -2px -2px #000000;
+    2px 2px #225C73,
+    2px -2px #225C73,
+    -2px 2px #225C73,
+    -2px -2px #225C73;
 }
 
 .underline {
@@ -196,10 +196,10 @@ hr {
     -2px 2px rgba(248, 237, 255, 1),
     -2px -2px rgba(248, 237, 255, 1); */
 
-    2px 2px #fffef2,
-    2px -2px #fffef2,
-    -2px 2px #fffef2,
-    -2px -2px #fffef2;
+    2px 2px #E9F7FA,
+    2px -2px #E9F7FA,
+    -2px 2px #E9F7FA,
+    -2px -2px #E9F7FA;
 
 }
 
@@ -277,7 +277,7 @@ hr {
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  background-color: #000000;
+  background-color: #225C73;
   width: 100%;
 }
 
@@ -295,7 +295,7 @@ hr {
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  background-color: #000000;
+  background-color: #225C73;
   color: white;
   width: 100%;
   padding: 5px;
@@ -321,7 +321,7 @@ hr {
 }
 
 .dropbtn {
-  background-color: #000000;
+  background-color: #225C73;
   color: white;
   padding: 16px;
   font-size: 16px;
@@ -412,7 +412,7 @@ hr {
   flex: 0 0 auto;
   text-align: center;
   justify-content: center;
-  background-color: #000000;
+  background-color: #225C73;
   color: white;
   transition: all 0.5s ease-out;
 }
@@ -421,14 +421,14 @@ hr {
   font-family: 'Inter', sans-serif;
   width: auto;
   display: block;
-  background-color: #2b2b2b;
+  background-color: #4B8CA6;
   color: white;
   text-align: center;
   justify-content: center;
   flex: 0 0 auto;
   font-size: 1em;
   border-radius: 4px;
-  border: 1px solid #2b2b2b;
+  border: 1px solid #4B8CA6;
   padding-left: 3em;
   padding-right: 3em;
   /* box-shadow: 1px 1px black; */
@@ -629,7 +629,7 @@ hr {
 }
 
 .whiteBR{
-  background-color: #000000;
+  background-color: #225C73;
 }
 
 
@@ -664,7 +664,7 @@ hr {
 }
 
 .story{
-  background: #000000;
+  background: #225C73;
   color: white;
   padding: 10px;
   visibility: hidden;
