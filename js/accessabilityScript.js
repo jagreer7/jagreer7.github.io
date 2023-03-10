@@ -59,12 +59,30 @@ function MonoChrome(){
     contactButtons.forEach(thing => {thing.style.backgroundColor = "#1e1e1e"; thing.style.color = "white";});
     document.querySelector("img").src="img/Chess-modified.png";
   }
+  if(document.title === "Object Jackson Greer"){
+    const contactButtons = document.querySelectorAll('.contactChild');
+    contactButtons.forEach(thing => {thing.style.backgroundColor = "#1e1e1e"; thing.style.color = "white";});
+    document.querySelector("img").src="img/ObjectThumbnail-modified.jpg";
+  }
+  if(document.title === "Form Jackson Greer"){
+    const contactButtons = document.querySelectorAll('.contactChild');
+    contactButtons.forEach(thing => {thing.style.backgroundColor = "#1e1e1e"; thing.style.color = "white";});
+    document.querySelector("img").src="img/FormThumbnail-modified.jpg";
+  }
+  if(document.title === "Text Jackson Greer"){
+    const contactButtons = document.querySelectorAll('.contactChild');
+    contactButtons.forEach(thing => {thing.style.backgroundColor = "#1e1e1e"; thing.style.color = "white";});
+    document.querySelector("img").src="img/TextThumbnail-modified.png";
+  }
   if(document.title === "Works Jackson Greer"){
     const postButtons = document.querySelectorAll('.mediaPostButton');
     postButtons.forEach(thing => {thing.style.backgroundColor = "#1e1e1e"; thing.style.color = "white";});
     document.querySelector(".chess").src="img/Chess-modified.png";
     document.querySelector(".plant").src="img/PlantVR-modified.jpg";
     document.querySelector(".space").src="img/SpaceJam-modified.png";
+    document.querySelector(".drill").src="img/FormThumbnail-modified.jpg";
+    document.querySelector(".circuit").src="img/ObjectThumbnail-modified.jpg";
+    document.querySelector(".logotype").src="img/TextThumbnail-modified.png";
   }
 }
 
@@ -134,12 +152,30 @@ function HighContrastD(){
     contactButtons.forEach(thing => {thing.style.backgroundColor = "yellow"; thing.style.color = "black";});
     document.querySelector("img").src="img/Chess.png";
   }
+  if(document.title === "Form Jackson Greer"){
+    const contactButtons = document.querySelectorAll('.contactChild');
+    contactButtons.forEach(thing => {thing.style.backgroundColor = "yellow"; thing.style.color = "black";});
+    document.querySelector("img").src="img/FormThumbnail.jpg";
+  }
+  if(document.title === "Object Jackson Greer"){
+    const contactButtons = document.querySelectorAll('.contactChild');
+    contactButtons.forEach(thing => {thing.style.backgroundColor = "yellow"; thing.style.color = "black";});
+    document.querySelector("img").src="img/ObjectThumbnail.jpg";
+  }
+  if(document.title === "Text Jackson Greer"){
+    const contactButtons = document.querySelectorAll('.contactChild');
+    contactButtons.forEach(thing => {thing.style.backgroundColor = "yellow"; thing.style.color = "black";});
+    document.querySelector("img").src="img/TextThumbnail.png";
+  }
   if(document.title === "Works Jackson Greer"){
     const postButtons = document.querySelectorAll('.mediaPostButton');
     postButtons.forEach(thing => {thing.style.backgroundColor = "yellow"; thing.style.color = "black";});
     document.querySelector(".chess").src="img/Chess.png";
     document.querySelector(".plant").src="img/PlantVR.jpg";
     document.querySelector(".space").src="img/SpaceJam.png";
+    document.querySelector(".drill").src="img/FormThumbnail.jpg";
+    document.querySelector(".circuit").src="img/ObjectThumbnail.jpg";
+    document.querySelector(".logotype").src="img/TextThumbnail.png";
   }
 }
 const hcdButtons = document.querySelectorAll('.HighContrastD');
@@ -208,12 +244,30 @@ function HighContrastL(){
       contactButtons.forEach(thing => {thing.style.backgroundColor = "#44005e"; thing.style.color = "white";});
       document.querySelector("img").src="img/Chess.png";
     }
+    if(document.title === "Form Jackson Greer"){
+      const contactButtons = document.querySelectorAll('.contactChild');
+      contactButtons.forEach(thing => {thing.style.backgroundColor = "#44005e"; thing.style.color = "white";});
+      document.querySelector("img").src="img/FormThumbnail.jpg";
+    }
+    if(document.title === "Object Jackson Greer"){
+      const contactButtons = document.querySelectorAll('.contactChild');
+      contactButtons.forEach(thing => {thing.style.backgroundColor = "#44005e"; thing.style.color = "white";});
+      document.querySelector("img").src="img/ObjectThumbnail.jpg";
+    }
+    if(document.title === "Text Jackson Greer"){
+      const contactButtons = document.querySelectorAll('.contactChild');
+      contactButtons.forEach(thing => {thing.style.backgroundColor = "#44005e"; thing.style.color = "white";});
+      document.querySelector("img").src="img/TextThumbnail.png";
+    }
     if(document.title === "Works Jackson Greer"){
       const postButtons = document.querySelectorAll('.mediaPostButton');
       postButtons.forEach(thing => {thing.style.backgroundColor = "#44005e"; thing.style.color = "white";});
       document.querySelector(".chess").src="img/Chess.png";
       document.querySelector(".plant").src="img/PlantVR.jpg";
       document.querySelector(".space").src="img/SpaceJam.png";
+      document.querySelector(".drill").src="img/FormThumbnail.jpg";
+      document.querySelector(".circuit").src="img/ObjectThumbnail.jpg";
+      document.querySelector(".logotype").src="img/TextThumbnail.png";
     }
 }
 
@@ -283,12 +337,30 @@ function classicFunction(){
     contactButtons.forEach(thing => {thing.style.backgroundColor = "#225C73 "; thing.style.color = "white";});
     document.querySelector("img").src="img/Chess.png";
   }
+  if(document.title === "Form Jackson Greer"){
+    const contactButtons = document.querySelectorAll('.contactChild');
+    contactButtons.forEach(thing => {thing.style.backgroundColor = "#225C73"; thing.style.color = "white";});
+    document.querySelector("img").src="img/FormThumbnail.jpg";
+  }
+  if(document.title === "Object Jackson Greer"){
+    const contactButtons = document.querySelectorAll('.contactChild');
+    contactButtons.forEach(thing => {thing.style.backgroundColor = "#225C73"; thing.style.color = "white";});
+    document.querySelector("img").src="img/ObjectThumbnail.jpg";
+  }
+  if(document.title === "Text Jackson Greer"){
+    const contactButtons = document.querySelectorAll('.contactChild');
+    contactButtons.forEach(thing => {thing.style.backgroundColor = "#225C73"; thing.style.color = "white";});
+    document.querySelector("img").src="img/TextThumbnail.png";
+  }
   if(document.title === "Works Jackson Greer"){
     const postButtons = document.querySelectorAll('.mediaPostButton');
     postButtons.forEach(thing => {thing.style.backgroundColor = "#225C73 "; thing.style.color = "white";});
     document.querySelector(".chess").src="img/Chess.png";
     document.querySelector(".plant").src="img/PlantVR.jpg";
     document.querySelector(".space").src="img/SpaceJam.png";
+    document.querySelector(".drill").src="img/FormThumbnail.jpg";
+    document.querySelector(".circuit").src="img/ObjectThumbnail.jpg";
+    document.querySelector(".logotype").src="img/TextThumbnail.png";
   }
 }
 
