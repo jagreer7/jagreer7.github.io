@@ -1,9 +1,9 @@
 body {
-  background-color: #fdfff5;
+  background-color: #ffffff;
 }
 
 .headerDiv {
-  width: auto;
+  width: 100%;
   background-color: #1a1b1c;
   margin-top: -2%;
 }
@@ -196,10 +196,10 @@ hr {
     -2px 2px rgba(248, 237, 255, 1),
     -2px -2px rgba(248, 237, 255, 1); */
 
-    2px 2px #fdfff5,
-    2px -2px #fdfff5,
-    -2px 2px #fdfff5,
-    -2px -2px #fdfff5;
+    2px 2px #ffffff,
+    2px -2px #ffffff,
+    -2px 2px #ffffff,
+    -2px -2px #ffffff;
 
 }
 
@@ -274,11 +274,12 @@ hr {
 
 .flex{
   display: flex;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
   flex-direction: row;
   background-color: #1a1b1c;
   width: 100%;
+  padding-left: 8%;
 }
 
 @media only screen and (max-width: 500px){
@@ -292,13 +293,14 @@ hr {
 .accessabilityFlex{
   margin-top: -3%;
   display: flex;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
   flex-direction: row;
   background-color: #1a1b1c;
   color: white;
   width: 100%;
   padding: 5px;
+  padding-left: 9%;
   column-gap: 1em;
   flex-wrap: wrap;
 }
@@ -697,4 +699,8 @@ label {
 .accessbox3{
   grid-row: 3;
   padding-top: 1em;
+}
+
+.specialWhite {
+  color: white;
 }

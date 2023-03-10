@@ -279,7 +279,7 @@ for (let i = 0; i < hclButtons.length; i++){
 
 function classicFunction(){
   console.log("Classic");
-  document.body.style.backgroundColor = "#fdfff5";
+  document.body.style.backgroundColor = "#ffffff";
   document.querySelector('.headerDiv').style.backgroundColor = "#1a1b1c ";
   document.querySelector('.whiteBR').style.backgroundColor = "#1a1b1c ";
   document.querySelector('.bigTitle').style.backgroundColor = "#1a1b1c ";
@@ -293,7 +293,7 @@ function classicFunction(){
   const imageBoder = document.querySelectorAll('img');
   imageBoder.forEach(thing => {thing.style.border  = "thin solid black";});
   const underlines = document.querySelectorAll('.underline');
-  underlines.forEach(thing => {thing.style.textShadow = "2px 2px #fdfff5, 2px -2px #fdfff5, -2px 2px #fdfff5, -2px -2px #fdfff5";});
+  underlines.forEach(thing => {thing.style.textShadow = "2px 2px #ffffff, 2px -2px #ffffff, -2px 2px #ffffff, -2px -2px #ffffff";});
   const flexes = document.querySelectorAll('.flex');
   flexes.forEach(thing => {thing.style.backgroundColor = "#1a1b1c "; thing.style.borderBottom = "thick solid #1a1b1c ";});
   const children = document.querySelectorAll('.child');
