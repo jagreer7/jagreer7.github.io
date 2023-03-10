@@ -1,5 +1,5 @@
 body {
-  background-color: #E9F7FA;
+  background-color: #fdfff5;
 }
 
 .headerDiv {
@@ -196,10 +196,10 @@ hr {
     -2px 2px rgba(248, 237, 255, 1),
     -2px -2px rgba(248, 237, 255, 1); */
 
-    2px 2px #E9F7FA,
-    2px -2px #E9F7FA,
-    -2px 2px #E9F7FA,
-    -2px -2px #E9F7FA;
+    2px 2px #fdfff5,
+    2px -2px #fdfff5,
+    -2px 2px #fdfff5,
+    -2px -2px #fdfff5;
 
 }
 
