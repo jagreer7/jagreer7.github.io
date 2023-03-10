@@ -278,7 +278,7 @@ hr {
   align-items: center;
   flex-direction: row;
   background-color: #1a1b1c;
-  width: 100%;
+  width: auto;
   padding-left: 8%;
 }
 
@@ -298,7 +298,7 @@ hr {
   flex-direction: row;
   background-color: #1a1b1c;
   color: white;
-  width: 100%;
+  width: auto;
   padding: 5px;
   padding-left: 9%;
   column-gap: 1em;
@@ -543,7 +543,7 @@ hr {
 .sticky {
   position: sticky;
   top: 0px;
-  width: 100%;
+  width: auto;
 }
 
 @media screen and (max-width: 500px){
