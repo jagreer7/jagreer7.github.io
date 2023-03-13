@@ -83,6 +83,7 @@ function MonoChrome(){
     document.querySelector(".drill").src="img/FormThumbnail-modified.jpg";
     document.querySelector(".circuit").src="img/ObjectThumbnail-modified.jpg";
     document.querySelector(".logotype").src="img/TextThumbnail-modified.png";
+    document.querySelector(".Code1").src="img/CompSci-modified.jpg";
   }
 }
 
@@ -176,6 +177,7 @@ function HighContrastD(){
     document.querySelector(".drill").src="img/FormThumbnail.jpg";
     document.querySelector(".circuit").src="img/ObjectThumbnail.jpg";
     document.querySelector(".logotype").src="img/TextThumbnail.png";
+    document.querySelector(".Code1").src="img/CompSci.jpg";
   }
 }
 const hcdButtons = document.querySelectorAll('.HighContrastD');
@@ -268,6 +270,7 @@ function HighContrastL(){
       document.querySelector(".drill").src="img/FormThumbnail.jpg";
       document.querySelector(".circuit").src="img/ObjectThumbnail.jpg";
       document.querySelector(".logotype").src="img/TextThumbnail.png";
+      document.querySelector(".Code1").src="img/CompSci.jpg";
     }
 }
 
@@ -361,6 +364,7 @@ function classicFunction(){
     document.querySelector(".drill").src="img/FormThumbnail.jpg";
     document.querySelector(".circuit").src="img/ObjectThumbnail.jpg";
     document.querySelector(".logotype").src="img/TextThumbnail.png";
+    document.querySelector(".Code1").src="img/CompSci.jpg";
   }
 }
 
