@@ -442,7 +442,7 @@ hr {
   display: grid;
   /*grid-template-columns: 50%;
   grid-template-rows: 60%;*/
-  grid-template-columns: 40% 60%;
+  grid-template-columns: 50% 50%;
 }
 
 @media screen and (max-width: 500px){
@@ -507,8 +507,8 @@ hr {
 }
 
 .postMargins{
-  margin-right: 30%;
-  margin-left: 30%;
+  margin-right: 20%;
+  margin-left: 20%;
 }
 
 @media screen and (max-width: 800px){
