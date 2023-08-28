@@ -705,3 +705,16 @@ label {
 .specialWhite {
   color: white;
 }
+
+.container {
+	background-color: #eee;
+	width: 1000px;
+	margin: 30px auto;
+	
+	display: grid;
+	grid-template-rows: flex flex;
+	grid-template-columns: flex flex flex;
+	
+	grid-row-gap: 15px;
+	grid-column-gap: 30px;
+}
